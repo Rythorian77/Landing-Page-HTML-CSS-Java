@@ -1,0 +1,233 @@
+<!--Created by: Justin Ross | Free for public use | Free to be modified-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>My Bootstrap Website</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css">  <!--animate.css animation-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">  <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+    <body data-spy="scroll" data-target="#menu" style="background: linear-gradient(to bottom, #003300 0%, #ff99cc 100%)">
+        
+        <!--Navigation Bar Section-->
+        <div id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+            
+            <div class="container" >
+                <!--Here is where you change "Business Name" to whatever you want-->
+                <a class="navbar-brand" href="#home">Business Name</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#recall">
+                    <span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="recall">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">FEATURES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profession">PROFESSION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">PROJECT TEAM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dreams">DREAMS</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+            
+        </nav>
+        </div>
+        <!--Navigational End-->
+        
+    <!--Landing Page Starts Here-->
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+                </div>
+            </div>
+        </div>
+        <!--Caption-->
+        <div class="caption center-block text-center" style="margin-top:-180px;">
+            <center style="color: white; text-shadow: 2px 2px 4px #000000;">Responsive Bootstrap</center><img id="imagez" src="images/wormhole.png">
+        </div>
+       <!--End of Landing-->
+        
+        <!--About Section-->
+        <div id="about">
+            
+            <div class="jumbotron">
+                <h3 class="heading" id="about-heading" style="padding-top:20px;">FEATURES</h3>
+                
+                <div class="row">
+                    <div class="col-md-4 text-center mt-4" id="animate-first">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <h4>Full Screen Landing</h4>
+                        <p>Full screen responsive landing page with bootstrap</p>
+                    </div>
+                    <div class="col-md-4 text-center mt-4" id="animate-second">
+                        <i class="fas fa-arrow-circle-down fa-3x"></i>
+                        <h4>Smooth Navigation</h4>
+                        <p>Bootstrap navigation menu features for smooth scrolling links.</p>
+                    </div>
+                    <div class="col-md-4 text-center mt-4" id="animate-third">
+                        <i class="fas fa-id-card fa-3x"></i>
+                        <h4>Contact Form</h4>
+                        <p>Bootstrap plus PHP mailer makes responsive contact form</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!--About Section Ends-->
+       
+        <!--Profession-->
+        <!--For high quality free images, got to: https://pixabay.com-->
+        <div id="profession">
+
+            <h3 class="heading" id="profession-heading" style="color: white;padding-top:70px;">THE PROFESSIONALS</h3>
+            <div class="row padding">
+                <div class="col-md-6">
+                    <div class="card text-center" id="animate-card-one">
+                        <img class="card-img-top" src="images/man1.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Sam Shepard</h4>
+                            <p><b>"With over 10 years of experience to fit your needs.<br>I won't stop until you're satisfied."</b></p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6">
+                    <div class="card text-center" id="animate-card-two">
+                        <img class="card-img-top" src="images/woman1.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Sofia Ross</h4>
+                            <p><b>"I have over 7 years of experience in programming, and they provide better services to their customers".</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Professions End-->
+        
+        <!--Team Section-->
+        <!--Note: images should be roughly (Dimension 3951x5387) unless portrait size is used instead
+        As long as you use images that are the same size, you will be fine-->
+        <div id="team">
+            <h3 class="heading" id="team-heading" style="color: white;padding-top:90px;">PROJECT TEAM</h3>
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <div class="card text-center" id="animate-firstteam">
+                        <img class="card-img-top" src="images/woman4.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Nina Emerale</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mt-4">
+                    <div class="card text-center" id="animate-secondteam">
+                        <img class="card-img-top" src="images/woman3.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Chu Hua</h4>
+                            <p>Front-End Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mt-4">
+                    <div class="card text-center" id="animate-thirdteam">
+                        <img class="card-img-top" src="images/woman5.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Ellen Rogers</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Team Ending-->
+        
+        <!--Contact Start-->
+        <div id="contact" style="margin-top: -30px;">
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 text-center" style="margin-top: -50px;">
+                        <h3 id="contact-heading" style="margin-top:74px;font-size:45px;">CONTACT</h3>
+                        <p style="font-size: 25px;">Solving all your business needs, one day at a time.</p>
+                        <strong>Our Location</strong>
+                        <p>Your Street Name<br>Your city, Zip: 04938</p>
+                        <strong>Contact Info</strong>
+                        <p>1-(207)-555-1234<br>Ethrovon@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Contact End-->
+        <marquee class="text" style="color: white;font-size:40px;margin:-9px;" id="dreams"><b>We Strive To Make Your Dreams A Reality...Thank You For Yor Service.</b></marquee>
+
+        <div class="image"></div>
+
+    </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script>
+            //This is Animation Section
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var positionTop = $(document).scrollTop();
+                    console.log(positionTop);
+
+                    if((positionTop > 30)&&(positionTop < 300))
+                        {
+                            $(".caption").addClass('animated heartBeat');
+                        }
+                    if((positionTop > 450)&&(positionTop< 700))
+                        {
+                            $("#about-heading").addClass('animated slideInLeft');
+                            $("#animate-first").addClass('animated fadeInLeftBig');
+                            $("#animate-second").addClass('animated slideInUp');
+                            $("#animate-third").addClass('animated fadeInRightBig');
+                        }
+                    if((positionTop > 1000)&&(positionTop < 1200))
+                        {
+                           $("#profession-heading").addClass('animated slideInLeft');
+                            $("#animate-card-one").addClass('animated bounceIn');
+                            $("#animate-card-two").addClass('animated bounceIn');
+                        }
+                    if((positionTop > 1580)&&(positionTop < 1880))
+                        {
+                            $("#profession-heading").addClass('animated slideInLeft');
+                            $("#animate-firstteam").addClass('animated bounceInDown');
+                            $("#animate-secondteam").addClass('animated bounceInDown');
+                            $("#animate-thirdteam").addClass('animated bounceInDown');
+                        }
+                    if((positionTop > 2050)&&(positionTop < 2130))
+
+                        {
+                            $("#contact-heading").addClass('animated slideInLeft');
+                            $('p').addClass('animated tada');
+                        }
+                })
+            })
+        </script>
+
+        <script>
+        //Water Ripples
+            $(document).ready(function() {
+            $('.image').ripples('show');
+            });
+        </script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js">
+</script>
+    </html>

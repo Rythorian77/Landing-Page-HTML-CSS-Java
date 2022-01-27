@@ -1,0 +1,257 @@
+*
+{
+ Arial, Helvetica, sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+    color: #505962;
+}
+
+.navbar
+{
+    font-size: 18px;
+}
+
+/*..About Section..*/
+.jumbotron h4
+{
+    font-weight: bolder;
+}
+.jumbotron p{
+    font-size: 18px;
+}
+.jumbotron .fas
+{
+    padding-bottom: 30px;
+    color:blue;
+}
+.caption
+{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    
+}
+.caption h3
+{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.caption .btn
+{
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    border-width: medium;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h3.heading
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.padding
+{
+    padding: 30px 0;
+}
+.fas
+{
+    max-width: 100%;
+}
+#testimonials .card
+{
+    margin: 30px;
+}
+
+/*Team Section*/
+.card
+{
+    box-shadow: 0px 0px 10px black;
+}
+.card-body p
+{
+    font-size: 17px;
+}
+.card-body .card-title
+{
+    font-weight: bolder;
+}
+
+/*Contact Section*/
+.footer
+{
+    background-color: rgba(0,0,0.4);
+    color: white;
+    padding-top: 40px;
+}
+.footer h3
+{
+    padding-bottom: 30px;
+}
+.footer p
+{
+    font-size: 15px;
+}
+
+#team
+{
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+/*Page Landing*/
+.landing
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background-color: rgba(10,0,255,.2);
+    z-index: 1;
+}
+
+.home-wrap
+{
+    clip: rect(0,auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.home-inner
+{
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    widows: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+}
+
+/*Media Entries*/
+
+@media (min-width:239px) and (max-width:320px)
+{
+    .caption h3{
+        font-size: 25px;
+    }
+    .caption .btn
+    {
+        font-size: 15px;
+        width: 120px;
+        font-weight: bolder;
+    }
+    h3.heading
+    {
+        font-size: 30px;
+    }
+    .jumbotron h4
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.jumbotron p{
+    font-size: 15px;
+}
+}
+
+@media (min-width:321px) and (max-width:480px)
+{
+     .caption h3{
+        font-size: 25px;
+    }
+    .caption .btn
+    {
+        font-size: 15px;
+        width: 120px;
+        font-weight: bolder;
+    }
+    h3.heading
+    {
+        font-size: 30px;
+    }
+    .jumbotron h4
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.jumbotron p{
+    font-size: 15px;
+}
+}
+
+@media (min-width:481px) and (max-width:767px)
+{
+    .caption h3
+    {
+        font-size: 29px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px)
+{
+    .caption h3
+    {
+        font-size: 35px;
+    }
+    #about .col-md-4
+    {  
+        padding-right: 70px;
+    }
+    #profession .col-md-6
+    {
+        padding-right: 90px;
+    }
+    #team .col-md-4
+    {
+        padding: 0px 70px;
+    }
+}
+
+
+/*Water Ripples*/
+.text {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+/*For this image, go to: https://pixabay.com/illustrations/full-moon-moon-full-night-sky-2055469/*/
+/*Just save it as full.jpg & place in image folder*/
+.image {
+  width:100%;
+  height:500px;
+  background-image:url("images/full.jpg");
+  background-position:center;
+}
+
+#imagez {
+  width:100%;
+  height:470px;
+}
+
+center {
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+  }
+}
+
